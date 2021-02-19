@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     if(select == 1){
                         rt.execute("http://zs.labs.defdev.eu/success.html");
                     } else if (select == 2){
-                        rt.execute("https://zs.labs.defdev.eu:444/success.html");
+                        rt.execute("https://zs2.labs.defdev.eu:444/success.html");
                     } else if (select == 3){
                         rt.execute("https://zs.labs.defdev.eu/success.html");
                     }

@@ -38,7 +38,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    <RadioGroup
         android:id="@+id/radioGroup2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onLetsEncryptClicked"
-            android:text="proper:443"
+            android:text="Letsencrypt"
             tools:ignore="OnClick" />
 
         <RadioButton
@@ -60,14 +60,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCustomCAClicked"
-            android:text="Custom CA:442" />
+            android:text="Custom CA" />
 
         <RadioButton
             android:id="@+id/radio_ninjas3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCustomCAClicked"
-            android:text="Plain text:80" />
+            android:text="Plain text" />
     </RadioGroup>
 
 </android.support.constraint.ConstraintLayout>
