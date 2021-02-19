@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         customCAButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View arg0){
-                editTextField.setText("Custom CA pinned at https://zs.labs.defdev.eu:444");
+                editTextField.setText("Custom CA pinned at https://zs2.labs.defdev.eu:444");
                 select = 2;
             }
         });
